@@ -119,16 +119,16 @@ console.log(assiResult1);
 let assiResult2 = (x -= 2);
 console.log(assiResult2);
 
-let assiResult3 = x *= 6;
+let assiResult3 = (x *= 6);
 console.log(assiResult3);
 
-let assiResult4 = x /= 3;
+let assiResult4 = (x /= 3);
 console.log(assiResult4);
 
-let assiResult5 = x **= 2;
+let assiResult5 = (x **= 2);
 console.log(assiResult5);
 
-let assiResult6 = x %= 3;
+let assiResult6 = (x %= 3);
 console.log(assiResult6);
 
 // Practice exercise 2.4
@@ -149,8 +149,8 @@ console.log(a !== b);
 let c = 5;
 let d = 6;
 console.log(c > d);
-console.log(c > c)
-console.log(c >= c)
+console.log(c > c);
+console.log(c >= c);
 
 console.log(c < d);
 console.log(y <= y);
