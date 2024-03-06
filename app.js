@@ -107,3 +107,72 @@ let prePos1 = 4;
 let prePos2 = 5;
 let prePos3 = 2;
 console.log(prePos1++ + ++prePos2 * prePos3++);
+
+// Practice exercise 2.3
+
+// Assignment operators
+
+let x = 2;
+let assiResult1 = (x += 2);
+console.log(assiResult1);
+
+let assiResult2 = (x -= 2);
+console.log(assiResult2);
+
+let assiResult3 = x *= 6;
+console.log(assiResult3);
+
+let assiResult4 = x /= 3;
+console.log(assiResult4);
+
+let assiResult5 = x **= 2;
+console.log(assiResult5);
+
+let assiResult6 = x %= 3;
+console.log(assiResult6);
+
+// Practice exercise 2.4
+
+// Comparison operators
+
+// Equal
+let y = 5;
+let z = "5";
+console.log(y === z);
+
+// Not equal
+let a = 5;
+let b = "5";
+console.log(a !== b);
+
+// Greater than and smaller than
+let c = 5;
+let d = 6;
+console.log(c > d);
+console.log(c > c)
+console.log(c >= c)
+
+console.log(c < d);
+console.log(y <= y);
+
+// Logical operators
+
+// And
+let g = 1;
+let h = 2;
+let i = 3;
+
+console.log(g < h && h < i);
+console.log(g > h && h > i);
+
+// Or
+console.log(g > h || h < i);
+console.log(g > h || h > i);
+
+// Not
+let f = false;
+console.log(!f);
+
+let m = 1;
+let n = 2;
+console.log(!(m < n));
